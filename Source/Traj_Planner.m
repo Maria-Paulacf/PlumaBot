@@ -120,6 +120,6 @@ function Robot_Traj = Traj_Planner( Type, Traj, Input3, Input4, Ts)
         Traj_Time(i + 1) = Traj_Time(i) + Ts;
     end
     
-    Robot_Traj = [POS VEL ACC Traj_Time(1:PT)']
+    Robot_Traj = [POS VEL ACC Traj_Time(1:PT)'];
 
 end
